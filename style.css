@@ -1,0 +1,366 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #aaa3a3;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    letter-spacing: .07em;
+    
+}
+
+
+
+/* =============== Menu ================ */
+
+a{
+    text-decoration: none;
+    /* color: #fdfdfd; */
+}
+
+#menu{
+    /* background: linear-gradient(#e6eaee, #5f3c3c); */
+    background-color: #152f4d;
+    height: 105px;  
+    padding-top: 4px;
+    position: fixed;
+    overflow: auto;
+    width:100%;
+    z-index: 100;
+    margin: 0 auto;
+    /* min-width: 700px; */
+    /* max-width: 1000px; */
+    /* margin-top: 300px; */
+}
+
+#menu ul{
+    margin: 0 ;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#menu li{
+    display: inline-block;
+    padding: 0px 20px;
+    /* padding-top: 10px; */
+}
+
+span{
+    padding: 0 5px;
+   visibility: hidden; 
+}
+
+/* #home-menu{
+    padding: 110px 50px;
+} */
+
+#menu a{
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 90px;
+    color: #d4f3f3;
+    margin: 3px 0px;
+    padding: 0px 15px;
+    border: none;
+    display: block;
+}
+
+#menu a:hover{
+    border-radius: 30%;
+    border: #757d85 solid 0.1px;
+    background: linear-gradient(#0e0b3883, #838691);
+}
+
+/* =============== Top ================ */
+
+.home-header-container{
+    /* display: block; */
+    /* width: 130%; */
+}
+
+@media all and (max-width: 450px) {
+
+    .home-header-container{
+        /* display: block; */
+        width: 120%;
+    }
+
+}
+
+#home-header{
+    padding: 130px 0 50px 0 ;
+    text-align: center;
+    background-color: #948484;
+    font-size: 25px;
+    color: #502121;
+    margin: 0;
+}
+/* 
+@media all and (max-width: 600px) {
+
+    #home-header{
+        width: 130%;
+        font-size: larger;
+        background-color: #fff;
+        margin: 0 auto;
+    } 
+
+}
+
+@media all and (max-width: 600px) {
+
+    #home-header{
+        width: 130%;
+        font-size: larger;
+        background-color: #fff;
+        margin: 0 auto;
+    } 
+
+} */
+/* ======== Banner ========= */
+
+#home-banner{
+    background-color: #caa6ce;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    text-align: center;
+    max-width: 100%;
+}
+
+#home-banner img{
+    /* display: inline; */
+    width: 25%;
+    margin: 20px auto;
+    
+    padding: 3px 10px;
+    /* min-height: 200px;
+    min-width: 300px; */
+    /* min-height: 200px;*/
+    /* min-width: 10%;  */
+    max-width: 30%;
+    /* max-height: 1000px; */
+} 
+
+@media all and (max-width: 600px) {
+    #home-banner{
+        /* padding: 20px 0px; */
+        width: 100%;
+    }
+
+    #home-banner img{
+        padding: 5px;
+        width: 30%;
+    } 
+
+}
+
+/* =============== Main ================ */
+
+main{
+    display: inline-block;
+}
+/* ======== Section ========= */
+
+.home-container{
+    display: grid;
+    grid-template: 1fr / 3fr 1fr;
+    /* justify-items: center; */
+    /* justify-content: center; */
+    align-items: center;
+    /* height: 700px; */
+}
+
+
+@media all and (max-width: 700px) {
+    .home-container{
+        font-size: 20px;
+
+        display: block;
+    }
+
+    #sidebar{
+        width: 50%;
+        /* justify-content: center; */
+        /* justify-items: center; */
+        margin: 0 auto;
+    }
+
+}
+
+/* @media all and (max-width: 450px) {
+    .home-container{
+        font-size: 20px;
+        width: 130%;
+        display: block;
+    }
+
+    
+
+} */
+
+
+#mainsec{
+    background-color: #7c4758;
+    padding: 0px 4px 0px 10px;
+    margin: 0 3px;
+}
+
+section h2{
+    text-align: center;
+    /* margin: 0; */
+    /* padding-left: 400px; */
+    color: #92d3d3;
+}
+
+section p{
+    color: #92d3d3;
+    /* line-height: 14px; */
+}
+
+/* =============== Sidebar ================ */
+
+.side-container{
+    margin-right: 5px;
+    /* clear: left; */
+}
+
+#sidebar{
+    background-color: #634949;
+    padding: 20px 0px;
+   
+}
+
+#sidebar h2{
+    color: #d6a5a5;
+    text-align: center;
+}
+
+#sidebar li{
+    color: #d6a5a5;
+}
+
+
+/* =============== Home Products ================ */
+
+#home-products{
+    clear: both;
+    background-color: #867777;
+    padding: 0px 0px 35px 0px;
+    margin: 15px 50px;
+    display: inline-block;
+    text-align: center;
+    /* justify-content: center; */
+    /* min-width: 100px; */
+    /* max-width: 1000px; */
+}
+
+#home-products img{
+    margin: 20px 30px;
+    width: 30%;
+	max-width: 100px;
+	min-width: 300px;
+    border-radius: 5px;
+    /* position: relative; */
+}
+
+#home-products img:hover{
+    transition:  0.5s ease-in;
+    transform: scale(1.2);
+    box-shadow: 3px 3px 3px #1e1b1a;
+}
+
+#home-products h2{
+    text-align: center;
+    /* margin: 0; */
+    font-size: 40px;
+    padding: 0px 0px 0px 0px;
+    color: #270a20;
+}
+
+#home-products p{
+    text-align: center;
+    padding: 0px 0px;
+    color: #270a20;
+    font-size: 20px;
+}
+
+
+
+
+
+
+/* =============== Footer ================ */
+
+footer{
+    text-align: center;
+    width: 100%;
+}
+
+#media h2{
+    font-size: 26px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #f5bfbf;
+}
+
+#media{
+    height: 140px;
+    background-color: #292625;
+    padding-top: 10px;
+    padding-left: 0px;
+}
+
+/* ======== Copyright ========= */
+
+ #copyright{
+    
+    height: 80px;
+    text-align:center;
+    background-color: #0f5748;
+    padding-top: 40px;
+    
+    
+} 
+
+#copyright p{ 
+    font-size: 16px;
+    letter-spacing: 0,1em;
+    text-transform: uppercase;
+    color: #f3c9c9;
+} 
+
+
+
+/* ===============  ================ */
+
+/* ========  ========= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===============  ================ */
+/* ========  ========= */

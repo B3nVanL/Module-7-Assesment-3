@@ -1,0 +1,358 @@
+
+
+
+
+/* =============== Products Page ================ */
+
+#product-banner{
+    width: 100%;
+    height: 300px;
+    background-color: #caa6ce;
+    margin: 0;
+    max-width: 100%;
+    position: absolute;
+    /* z-index: -10; */
+    background-image: url(./pics/doughnut3\ .png);
+    
+    z-index: -1000;
+}
+/* 
+@media all and (max-width: 800px) {
+
+    #product-banner{
+        width: 90%;
+        position: relative;
+        margin: 0 auto;
+    } 
+
+} */
+
+
+/* =============== Products Page ================ */
+
+/* ======== Products Display ========= */
+
+
+
+.pro-container{
+   
+    width: 90%;
+    min-width: 70%;
+    margin: 330px auto;
+    /* border: solid 1px black; */
+}
+
+#pro-mainsec{
+    border: solid 1px #b0aaff;
+    
+    margin: 3px auto;
+    background-color: #978989;
+    z-index: 10;
+    padding: 10px 10px 15px 30px;
+    min-width: 500px;
+    max-width: 80%;
+}
+
+
+@media all and (max-width: 500px) {
+
+    .pro-container{
+        /* width: 60%; */
+        /* max-width: 40%; */
+        margin: 290px auto;
+        float: left;
+    } 
+
+} 
+
+
+
+#pro-mainsec h2{
+    text-align: center;
+    font-size: 47px;
+    color: #312220;
+}
+
+#pro-mainsec p{
+    /* line-height: 10px; */
+    color: #441f1f;
+    font-size: 19px;
+}
+
+#pro-h2{
+    font-size: 30px;
+    color: #1b1924;
+}
+
+#pro-p{
+    margin-top: -10px;
+    font-size: 20px;
+    color: #121018;
+}
+
+#products-products{
+    text-align: center;
+    margin: -280px auto;
+    width: 90%;
+    /* border: black solid 1px; */
+}
+
+#products-products2{
+    text-align: center;
+    margin: 300px auto;
+    width: 90%;
+    /* border: black solid 1px; */
+    /* justify-content: center; */
+    /* justify-content: center; */
+    /* align-self: center; */
+}
+
+
+@media all and (max-width: 500px) {
+
+    #products-products{
+        width: 90%;
+        float: left;
+        margin: -290px auto;
+    } 
+
+    #products-products2{
+        /* text-align: center; */
+        margin: 170px auto;
+        width: 90%;
+        float: left;
+    }
+} 
+
+
+
+
+
+
+#item-grid {
+    /* align-items: center; */
+    border: 1px #1f0f0f solid;
+    /* border-radius: 5px; */
+    /* width: 90%; */
+    height: auto;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    
+}
+
+
+/* Done */
+#box{
+    border: solid 1px #1f0f0f;
+    /* line-height: 5px; */
+    background-color: #2e5475;
+    text-align: center;
+    padding-top: 18px;
+}
+
+#item-grid img{
+    width: 90%;
+    padding: 1px;
+    /* background-color: beige; */
+    color: black;
+    border-radius: 15px;
+    /* border: 1px dodgerblue solid; */
+}
+
+#item-grid p{
+    color: #000000;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+#pro-footer{
+    text-align: center;
+    width: 100%;
+    margin-top: -260px;
+}
+
+@media all and (max-width: 500px) {
+
+    #pro-footer{
+        text-align: center;
+        width: 100%;
+        margin-top: -140px;
+    }
+
+}
+
+
+
+/* =============== Contact page ================ */
+
+
+
+
+
+
+#contact-header{
+    background-image: url("./pics/doughnut3\ .png");
+    /* opacity: .5; */
+    padding: 130px 0 60px 0 ;
+    text-align: center;
+    background-color: #5f3c3c;
+    font-size: 25px;
+    color: #000000;
+    margin: 0;
+}
+
+@media all and (max-width: 600px) {
+
+    #contact-header{
+        /* background-color: #070e16; */
+        font-size: larger;
+    } 
+
+}
+
+
+
+
+/* ======== Main ========= */
+ 
+#con-main{
+    width: 100%;
+    /* text-align: center; */
+        /* display: ; */
+} 
+
+/* ======== Main content ========= */
+
+.con-container{
+    width: 50%;
+    margin: 5px auto;
+    padding: 10px;
+    /* padding: 100px; */
+    /* background-color: #14b6df; */
+    
+    text-align: center;
+}
+
+#con-content{
+    padding: 10px 0px 10px 0px;
+    border-radius: 5px;
+    background-color: #4da8a8;
+    /* text-align: center; */
+    /* width: 100%; */
+    /* height: 200px; */
+}
+
+#con-content h2{
+    font-size: 40px;
+    color: #270350;
+    /* border: solid white 1px; */
+}
+
+#small-container{
+    margin: 0 auto;
+    width: 40%;
+    text-align: left;
+    /* background-color: #225555; */
+    /* border: #400247 solid 4px; */
+}
+
+#con-content p{
+    font-size: 25px;
+    color: #020c0efb;
+    /* border: #caa6ce solid 1px; */
+}
+
+@media all and (max-width: 800px) {
+
+    .con-container{
+        width: 80%;
+    } 
+
+}
+
+
+
+/* =============== Order page ================ */
+
+/* ======== Main content ========= */
+
+/* ======== Main ========= */
+
+#order-main{
+    width: 100%;
+}
+
+.order-container{
+    text-align: center;
+    width: 40%;
+    margin: 5px auto;
+    padding: 10px;
+    /* padding: 100px; */
+    /* background-color: #14b6df; */
+    
+}
+
+#order-content{
+    padding: 10px 0px 20px 0px;
+    border-radius: 10px;
+    background-color: #0b3333;
+    /* text-align: center; */
+    /* width: 100%; */
+    /* height: 200px; */
+}
+
+#order-content p{
+    /* border: solid; */
+    color: #c29494;
+    margin: 5px auto;
+    /* float: left; */
+}
+
+#name{
+    /* padding-bottom: 1px; */
+    width: 60%;
+    margin-bottom: 6px;
+}
+
+#email{
+    margin-bottom: 6px;
+    width: 60%;
+}
+
+#descriptor{
+    margin-bottom: 14px;
+    width: 60%;
+    height: 50px;
+}
+
+#button{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 1000;
+    /* margin-bottom: 50px; */
+}
+
+
+@media all and (max-width: 700px) {
+    .order-container{
+        width: 70%;
+    }
+}
+
+
+@media all and (max-width: 800px) {
+    .order-container{
+        width: 70%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
