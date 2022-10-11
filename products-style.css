@@ -119,7 +119,7 @@
 
     .products-products2{
         /* text-align: center; */
-        margin: 170px auto;
+        margin: 280px auto;
         width: 90%;
         float: left;
     }
@@ -182,9 +182,37 @@
         margin-top: -140px;
     }
 
+    #item-grid img{
+        width: 90%;
+        height: 70%;
+    }
+    
+    #box{
+        border: solid 1px #1f0f0f;
+        /* line-height: 5px; */
+        height: 250px;
+        background-color: #2e5475;
+        text-align: center;
+        padding-top: 18px;
+    }
 }
 
+@media all and (max-width: 700px) {
 
+    #box{
+        border: solid 1px #1f0f0f;
+        /* line-height: 5px; */
+        height: 300px;
+        background-color: #2e5475;
+        text-align: center;
+        padding-top: 18px;
+    }
+
+    #item-grid img{
+        width: 90%;
+        height: 70%;
+    }    
+}
 
 /* =============== Contact page ================ */
 
