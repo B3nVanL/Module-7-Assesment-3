@@ -154,7 +154,8 @@
 #item-grid img{
     width: 80%;
     height: 80%;
-    padding: 1px;
+    margin-top: 10px;
+    padding: 1px 1px 1px 1px;
     /* background-color: beige; */
     color: black;
     border-radius: 15px;

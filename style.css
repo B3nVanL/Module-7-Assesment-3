@@ -134,7 +134,8 @@ span{
 
 #home-banner img{
     /* display: inline; */
-    width: 25%;
+    min-width: 25%;
+    max-height: 20%;
     margin: 20px auto;
     
     padding: 3px 10px;
