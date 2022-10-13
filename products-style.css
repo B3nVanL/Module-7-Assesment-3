@@ -4,30 +4,30 @@
 
 /* =============== Products Page ================ */
 
+
+
+
+
+
 #product-banner{
     width: 100%;
-    height: 300px;
-    background-color: #caa6ce;
-    margin: 0;
-    max-width: 100%;
-    position: absolute;
-    /* z-index: -10; */
-    background-image: url(./pics/banner-spare-2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* padding-top: 100px; */
-    z-index: -1000;
-}
-/* 
-@media all and (max-width: 800px) {
+} 
+
+#product-banner img{
+    width: 100%;
+} 
+
+@media all and (max-width: 500px) {
 
     #product-banner{
-        width: 90%;
-        position: relative;
-        margin: 0 auto;
+        /* width: 100px; */
     } 
-
-} */
+    
+    #product-banner img{
+        width: 100%;
+        height: 200px;
+    } 
+}
 
 
 /* =============== Products Page ================ */
@@ -38,9 +38,9 @@
 
 .pro-container{
    
-    width: 90%;
+    width: 100%;
     min-width: 70%;
-    margin: 330px auto;
+    margin: 20px auto;
     /* border: solid 1px black; */
 }
 
@@ -51,8 +51,7 @@
     background-color: #978989;
     z-index: 10;
     padding: 10px 10px 15px 30px;
-    min-width: 500px;
-    max-width: 80%;
+    width: 70%;
 }
 
 
@@ -61,7 +60,7 @@
     .pro-container{
         /* width: 60%; */
         /* max-width: 40%; */
-        margin: 290px auto;
+        margin: 10px auto;
         float: left;
     } 
 
@@ -94,14 +93,14 @@
 
 #products-products{
     text-align: center;
-    margin: -280px auto;
+    margin: 10px auto;
     width: 90%;
     /* border: black solid 1px; */
 }
 
 .products-products2{
     text-align: center;
-    margin: 300px auto;
+    margin: 20px auto;
     width: 90%;
     /* border: black solid 1px; */
     /* justify-content: center; */
@@ -113,15 +112,15 @@
 
     #products-products{
         width: 90%;
-        float: left;
-        margin: -290px auto;
+        /* float: left; */
+        margin: 10px auto;
     } 
 
     .products-products2{
         /* text-align: center; */
-        margin: 280px auto;
+        margin: 10px auto;
         width: 90%;
-        float: left;
+        /* float: left; */
     }
 } 
 
@@ -171,7 +170,7 @@
 #pro-footer{
     text-align: center;
     width: 100%;
-    margin-top: -260px;
+    margin-top: 10px;
 }
 
 @media all and (max-width: 500px) {
@@ -179,7 +178,7 @@
     #pro-footer{
         text-align: center;
         width: 100%;
-        margin-top: -140px;
+        margin-top: 10px;
     }
 
     #item-grid img{
@@ -202,15 +201,15 @@
     #box{
         border: solid 1px #1f0f0f;
         /* line-height: 5px; */
-        height: 300px;
+        height: 200px;
         background-color: #2e5475;
         text-align: center;
         padding-top: 18px;
     }
 
     #item-grid img{
-        width: 90%;
-        height: 70%;
+        width: 70%;
+        height: 60%;
     }    
 }
 
