@@ -71,17 +71,17 @@
 #pro-mainsec h2{
     text-align: center;
     font-size: 47px;
-    color: #312220;
+    color: #16100f;
 }
 
 #pro-mainsec p{
     /* line-height: 10px; */
-    color: #441f1f;
+    color: #0a0606;
     font-size: 19px;
 }
 
 #pro-h2{
-    font-size: 30px;
+    font-size: 37px;
     color: #1b1924;
 }
 
@@ -130,14 +130,9 @@
 
 
 #item-grid {
-    /* align-items: center; */
     border: 1px #1f0f0f solid;
-    /* border-radius: 5px; */
-    /* width: 90%; */
-    /* height: auto; */
     display: grid;
     grid-template: repeat(2, 1fr) / repeat(3, 1fr);
-    
 }
 
 /* Done */
@@ -148,6 +143,7 @@
     background-color: #2e5475;
     text-align: center;
     padding-top: 18px;
+    padding-bottom: 20px;
 }
 
 #item-grid img{
@@ -162,9 +158,11 @@
 }
 
 #item-grid p{
-    color: #000000;
-    font-size: 18px;
-    padding-bottom: 5px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 9px;
+    /* padding-top: -130px; */
 }
 
 #pro-footer{
@@ -213,6 +211,12 @@
     }    
 }
 
+
+
+
+
+
+
 /* =============== Contact page ================ */
 
 
@@ -221,8 +225,7 @@
 
 
 #contact-header{
-    background-image: url("./pics/banner-contact.jpg");
-    /* opacity: .5; */
+    background-image: url("./pics/banner-contact.webp");
     padding: 130px 0 60px 0 ;
     text-align: center;
     background-color: #5f3c3c;
@@ -282,7 +285,7 @@
 
 #small-container{
     margin: 0 auto;
-    width: 40%;
+    width: 50%;
     text-align: left;
     /* background-color: #225555; */
     /* border: #400247 solid 4px; */
@@ -299,6 +302,15 @@
     .con-container{
         width: 80%;
     } 
+
+    #small-container{
+        margin: 0 auto;
+        width: 100%;
+        margin-left: 20px;
+        text-align: left;
+        /* background-color: #225555; */
+        /* border: #400247 solid 4px; */
+    }
 
 }
 
@@ -317,7 +329,7 @@
 #order-header{
     background-image: url("./pics/banner-order.jpg");
     /* opacity: .5; */
-    padding: 130px 0 60px 0 ;
+    padding: 150px 0 60px 0 ;
     text-align: center;
     background-color: #5f3c3c;
     background-repeat: no-repeat;
@@ -325,6 +337,18 @@
     font-size: 25px;
     color: #000000;
     margin: 0;
+}
+
+#order-header h1{
+    color: #202020;
+    font-size: 65px;
+    font-weight: 600;
+}
+
+#order-header p{
+    color: #330404;
+    font-size: 30px;
+    font-weight: 400;
 }
 
 .order-container{
@@ -353,7 +377,7 @@
     /* float: left; */
 }
 
-#name{
+#address{
     /* padding-bottom: 1px; */
     width: 60%;
     margin-bottom: 6px;
@@ -381,6 +405,16 @@
 @media all and (max-width: 700px) {
     .order-container{
         width: 70%;
+    }
+
+    #order-header p{
+        font-size: 25px;
+        font-weight: 300;
+    }
+    
+    #order-header h1{
+        font-size: 49px;
+        font-weight: 600;
     }
 }
 
