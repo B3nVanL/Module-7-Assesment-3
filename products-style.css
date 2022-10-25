@@ -221,19 +221,30 @@
 
 
 
-
+/* fixxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
 
 #contact-header{
-    background-image: url("./pics/banner-contact.webp");
-    padding: 130px 0 60px 0 ;
+    background-image: url("./pics/banner-contact.jpg");
+    padding: 150px 0 60px 0 ;
     text-align: center;
     background-color: #5f3c3c;
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 25px;
-    color: #000000;
     margin: 0;
+}
+
+#contact-header h1{
+    color: #1b1111;
+    font-size: 65px;
+    font-weight: 500;
+}
+
+#contact-header p{
+    color: #1b1717;
+    font-size: 30px;
+    font-weight: 400;
 }
 
 @media all and (max-width: 600px) {
