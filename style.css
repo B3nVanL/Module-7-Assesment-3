@@ -139,7 +139,7 @@ span{
     /* display: inline; */
     max-width: 30%;
     min-width: 25%;
-    height: 70%;
+    height: 90%;
     margin: auto auto;
     /* max-height: 1000px; */
 } 
@@ -148,11 +148,13 @@ span{
     #home-banner{
         /* padding: 20px 0px; */
         width: 100%;
+        height: 200px;
     }
 
     #home-banner img{
-        padding: 5px;
+        padding: 1px;
         width: 30%;
+        height: 50%;
     } 
 
 }
