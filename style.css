@@ -144,6 +144,24 @@ span{
     /* max-height: 1000px; */
 } 
 
+@media all and (max-width: 300px) {
+
+     #home-banner{
+        
+        width: 100%;
+        height: 900px;
+    }
+
+    #home-banner img{
+        /* padding: 1px; */
+        border-radius: 10px;
+        width: 100%;
+        /* height: 50%; */
+    }  
+
+    
+}
+
 @media all and (max-width: 600px) {
     #home-banner{
         /* padding: 20px 0px; */
@@ -209,14 +227,31 @@ main{
     line-height: 25px;
 }
 
-section h2{
+@media all and (max-width: 300px) {
+
+    
+
+    .mainsec{
+        width: 80%;
+        color: #1f0f0f;
+    }
+
+    .mainsec h2{
+        line-height: 32px;
+    } 
+
+   
+    
+}
+
+.mainsec h2{
     text-align: center;
     /* margin: 0; */
     /* padding-left: 400px; */
-    color: #92d3d3;
+    color: #cebbbb;
 }
 
-section p{
+.mainsec p{
     color: #92d3d3;
     /* line-height: 14px; */
 }
@@ -257,25 +292,39 @@ section p{
 
 
 
+
+
+
 @media all and (max-width: 800px) {
     .home-container{
         font-size: 20px;
         /* grid-template: 2fr / 1fr; */
         display: block;
     }
-
+    
     #sidebar{
         width: 70%;
         max-width: 50%;
         /* margin-left: 5/0px; */
         margin: 0px auto;
     }
-
+    
     #sidebar h2{
         /* line-height: 20px; */
     }
 }
 
+@media all and (max-width: 300px) {
+    
+    #sidebar{
+        width: 90%;
+        padding: 1px;
+        margin: 1px;
+    }
+
+   
+    
+}
 
 @media all and (max-width: 500px) {
     .home-container{
